@@ -9,3 +9,7 @@ To run specific example, do for example:
 ```js
 node async/1.setTimeout/index.js
 ```
+
+
+## Node version
+Examples are running and tested on node `14.x.x`

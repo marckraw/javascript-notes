@@ -1,6 +1,6 @@
 
 const promiseA = new Promise((resolve, reject) => {
-    const simulateError = false;
+    const simulateError = true;
 
     setTimeout(() => {
         if(simulateError) {

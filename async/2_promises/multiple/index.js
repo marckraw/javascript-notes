@@ -9,16 +9,16 @@ const {promiseA, promiseB, promiseC} = require('./prepare')
 * successfully and which one not
 *
 * */
-// Promise
-//     .allSettled([promiseA, promiseB, promiseC])
-//     .then((valueA, valueB, valueC) => {
-//         console.log("These are values returned from all promisses when all are settled: ")
-//         console.table(valueA, valueB, valueC)
-//     })
-//     .catch((error) => {
-//         console.log("Errors ?")
-//         console.log(error)
-//     })
+Promise
+    .allSettled([promiseA, promiseB, promiseC])
+    .then((valueA, valueB, valueC) => {
+        console.log("These are values returned from all promisses when all are settled: ")
+        console.table(valueA, valueB, valueC)
+    })
+    .catch((error) => {
+        console.log("Errors ?")
+        console.log(error)
+    })
 
 
 

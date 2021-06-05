@@ -38,4 +38,31 @@ const observableC = new Rx.Observable(observer => {
 
 observableC.subscribe((value) => {
     console.log(value)
+}, (error) => {
+    console.log(error)
+}, () => {
+    console.log("all done")
 })
+
+
+
+/* ############################################################################### */
+let bookArray = [
+    { "bookId": 1, "title": "Title 1" },
+    { "bookId": 2, "title": "Title 2" },
+    { "bookId": 3, "title": "Title 3" }
+]
+let booksObservable$ = Rx.from(bookArray)
+
+booksObservable$.subscribe(
+    (value) => {
+        console.log(value)
+    },
+    (erorr) => {
+        console.log("on error: ")
+        console.log(error)
+    },
+    () => {
+        console.log("finally")
+    }
+)

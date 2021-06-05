@@ -1,0 +1,19 @@
+{
+  "name": "javascript-notes",
+  "version": "0.0.1",
+  "description": "This is repository of a lot of different notes on javascript mechanics, and other things about javascript/typescript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marckraw/javascript-notes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marckraw/javascript-notes/issues"
+  },
+  "homepage": "https://github.com/marckraw/javascript-notes#readme"
+}
